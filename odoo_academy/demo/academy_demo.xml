@@ -1,4 +1,4 @@
-<?xml version="1.0", encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data noupdate="l">
         <record model="academy.course" id="erp_101">
@@ -14,13 +14,14 @@
             Intermediate Accounting Corse
             Learning about Cost Accounting and pricing and Revenue Analysis.
             </field>
+           <field name="level">intermediate</field>
         </record>
         
         <record model="academy.course" id="website_500">
             <field name="name">Website 500</field>
             <field name="description"></field>
             <field name="level">beginner</field>
-            
+        </record>   
     </data>
     
 </odoo>
